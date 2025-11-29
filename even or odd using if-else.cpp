@@ -1,0 +1,17 @@
+//wacp to check whether the given number is even or odd using if-else
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("Enter a number:");
+	scanf("%d",&n);
+	if(n%2==0)
+	{
+		printf("EVEN\n");
+	}
+	else
+	{
+		printf("ODD\n");
+	}
+	return 0;
+}
